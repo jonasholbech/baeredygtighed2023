@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>MMD Bæredygtighed 2023</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+    <link rel="stylesheet" href="dist/custom.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-auto-animate>
+          <h1>Bæredygtighed</h1>
+          <h2 data-id="title">2023</h2>
+        </section>
+        <section data-auto-animate>
+          <img src="dist/gfx/barometer.webp" alt="" style="height: 650px" />
+        </section>
+        <section data-auto-animate>
+          <h2 data-id="title">Program</h2>
+          <ol style="list-style-type: none">
+            <li><strong>8:30</strong> Ankomst og registrering</li>
+            <li><strong>9:00</strong> introduktion til dagen</li>
+            <li>
+              <strong>9:10</strong> Sustainability Compass V. Forte Advice /
+              Jesper Nørding Pedersen
+            </li>
+            <li>
+              <strong>10:00</strong> Planet: V. Rune Kirt / Kirt x Thomsen
+            </li>
+            <li>
+              <strong>11:00</strong> People. V. Rasmus Sanko / Charlie Tango
+            </li>
+            <li>
+              <strong>12:00</strong> Society. V. Pernille Tranberg / Journalist
+            </li>
+            <li><strong>12:30</strong> Frokost</li>
+          </ol>
+        </section>
+        <section data-auto-animate>
+          <h2 data-id="title">Jesper Nørding Pedersen</h2>
+          <p>Det digitale værdikompas</p>
+          <div class="grid">
+            <img src="dist/gfx/barometer.webp" alt="" />
+            <img src="dist/gfx/jesper.jpg" alt="" />
+          </div>
+        </section>
+        <section data-auto-animate>
+          <h2 data-id="title">Pause til 10:00</h2>
+        </section>
+        <section data-auto-animate>
+          <h2 data-id="title">Rune Kirt</h2>
+          <p>Designs rolle indenfor miljømæssig bæredygtighed</p>
+          <div class="grid">
+            <img src="dist/gfx/planet.jpg" alt="" />
+            <img src="dist/gfx/rune.jpg" alt="" />
+          </div>
+        </section>
+        <section data-auto-animate>
+          <h2 data-id="title">Pause til 11:00</h2>
+        </section>
+        <section data-auto-animate>
+          <h2 data-id="title">Rasmus Sanko</h2>
+          <p>Mennesket i systemet</p>
+          <div class="grid">
+            <img src="dist/gfx/people.jpg" alt="" />
+            <img src="dist/gfx/rasmus.jpg" alt="" />
+          </div>
+        </section>
+        <section data-auto-animate>
+          <h2 data-id="title">Pause til 12:00</h2>
+        </section>
+        <section data-auto-animate>
+          <h2 data-id="title">Pernille Tranberg</h2>
+          <p>Datademokrati</p>
+          <div class="grid">
+            <img src="dist/gfx/society.jpg" alt="" />
+            <img src="dist/gfx/pernille.jpg" alt="" />
+          </div>
+        </section>
+      </div>
+    </div>
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 350px);
+        justify-content: center;
+        margin: auto;
+        height: 500px;
+        gap: 1rem;
+      }
+      img {
+        border-radius: 100%;
+      }
+    </style>
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="dist/custom.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>

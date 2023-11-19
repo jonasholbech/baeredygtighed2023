@@ -1,0 +1,12 @@
+css/
+.vscode/
+examples/
+js/
+.DS_Store
+*.md
+demo.html
+LICENSE
+gulpfile.js
+package-lock.json
+package.json
+test/
